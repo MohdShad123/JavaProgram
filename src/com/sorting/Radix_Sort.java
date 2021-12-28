@@ -19,7 +19,7 @@ public class Radix_Sort {
 	
 	static void radixSort(int[] arr) {
 		
-		int max = Integer.MAX_VALUE;
+		int max = Integer.MIN_VALUE;
 		for(int i = 0; i<arr.length; i++) {
 			if(arr[i]>max) {
 				max = arr[i];
